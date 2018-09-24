@@ -1,0 +1,123 @@
+<mat-sidenav-container class="note-container">
+    <mat-sidenav-content class="note-content">
+      <mat-card class="note-card" *ngIf="Card">
+          <mat-card-content>
+              <input class="noteinput" placeholder="Take a note...." (click)="showHideMain()" /> 
+              </mat-card-content>
+      </mat-card>
+       
+      <mat-card class="note-card1" *ngIf="createCard">
+          <mat-card-content>
+
+        <div class="pin1"><input class="noteinput1" placeholder="Title"[(ngModel)]="model.title"/> 
+        <button mat-icon-button class="note-pin" matTooltip="Pin Note">
+          <img class="pin" src="../../assets/pin.svg">
+        </button>
+      </div>
+        <input class="noteContain" placeholder="Take a note..."[(ngModel)]="model.description"/>
+        <div class="menu">
+            <button mat-icon-button class="note-reminder" matTooltip="Remind Me" [matMenuTriggerFor]="menu" [matMenuTriggerFor]="menu2">
+                <img class="reminder" src="../../assets/reminder.svg">
+            </button>
+            <mat-menu #menu="matMenu">Reminder:
+                <button mat-menu-item>later today</button>
+                <button mat-menu-item>Tommorow</button>
+                <button mat-menu-item>Next week</button>
+                <button mat-menu-item (click)="test()" >select date and time</button>
+                <button mat-menu-item>select place</button>
+
+                 <!-- <button mat-button class="note-button">
+                     <img src="../../assets/outline-watch_later-24px.svg" class="image-notes"> 
+                    <span class="note">select date and time</span>
+                  </button>
+
+                  <button mat-button class="note-button">
+                    <img src="../../assets/outline-watch_later-24px.svg" class="image-notes">
+                    <span class="note">select place</span>
+                  </button>  -->
+              </mat-menu>
+              <!-- <mat-menu #menu2="matMenu2">Select Data and Time
+                <mat-form-field>
+                  <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+                  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                  <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+              </mat-menu> -->
+       
+
+          <button mat-icon-button class="note-collaborator" matTooltip="collaborator">
+              <img class="collaborator" src="../../assets/baseline-person_add-24px.svg">
+          </button>
+
+          <button mat-icon-button class="note-color" matTooltip="Change colour">
+              <img class="color" src="../../assets/baseline-color_lens-24px.svg">
+          </button>
+
+          <button mat-icon-button class="note-addPerson" matTooltip="Add image">
+              <img class="addPerson" src="../../assets/addimage.svg">
+          </button>
+
+          <button mat-icon-button class="note-archive" matTooltip="Archive">
+              <img class="archive" src="../../assets/archive.svg">
+          </button>
+
+          <button mat-icon-button class="note-menuBotton" matTooltip="More">
+              <img class="menuBotton" src="../../assets/baseline-more_vert-24px.svg">
+          </button>
+          
+          <button mat-icon-button class="note-undo" aria-label="Undo" aria-disabled="false" tabindex="0">
+              <img class="undo" src="../../assets/baseline-undo-24px.svg">
+          </button>
+
+          <button mat-icon-button class="note-redo">
+            <img class="redo" src="../../assets/baseline-redo-24px.svg">
+          </button>
+
+          <button mat-button class="closebtn" (click)="showHideImp()">CLOSE</button>
+
+         <!-- <div class="notesDisplay">
+      <div *ngFor="let note of notes">
+        <mat-card class="cardDisplay" *ngIf="note.isArchive!=1 && note.isPin==1">
+          <div class="title-pin">
+          <mat-card-title> {{note.title}}
+           <button mat-icon-button class="pin" matTooltip="Pin note">
+            <img src="../../assets/image/pin.svg" />
+           </button>
+          </mat-card-title>
+          </div> -->
+          <!-- <mat-card-content>{{note.content}}</mat-card-content> -->
+
+       <!-- <div class="button-display" >
+        <button mat-icon-button class="notes" matTooltip="Remind me" [matMenuTriggerFor]="menu">
+          <img class="imageNote" src="../../assets/image/Remainder.svg" />
+        </button>
+        <button mat-icon-button class="notes" matTooltip="Collaborator">
+          <img class="imageNote" src="../../assets/image/baseline-person_add-24px.svg" />
+        </button>
+        <button mat-icon-button class="notes" matTooltip="Change Color">
+          <img class="imageNote" src="../../assets/image/baseline-color_lens-24px.svg" />
+        </button>
+        <button mat-icon-button class="notes" matTooltip="Add image">
+          <img class="imageNote" src="../../assets/image/baseline-photo-24px.svg" />
+        </button>
+        <button mat-icon-button class="notes" matTooltip="Archive">
+          <img class="imageNote" src="../../assets/image/Archieve.svg" />
+        </button>
+        <button mat-icon-button class="notes" matTooltip="More">
+          <img class="imageNote" src="../../assets/image/baseline-more_vert-24px.svg" />
+        </button>
+       </div> -->
+<!-- 
+        </mat-card>
+      </div>
+    </div> -->
+
+      </div>
+        </mat-card-content>
+
+      </mat-card>
+   </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+ 

@@ -1,0 +1,166 @@
+  .note-container {
+   position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .note-content {
+    background-color: #e8e8e8;
+  }
+  .note-card {
+    width: 550px;
+    margin-top: 80px;
+    margin-left: 320px;
+     padding: 10px;
+     padding-right: 20px;
+  }
+  .noteinput {
+    font-size:initial;
+    border: none;
+    outline: none;
+    width: 500px;
+    size: small;
+  }
+  .note-card1 {
+    width: 550px;
+    margin-top: 80px;
+    margin-left: 320px;
+    padding: 10px
+  }
+  .noteinput1{
+    border: none;
+    outline: none;
+    width: 500px;
+    font-weight:bold;
+    font-size: large;
+  }
+  .note-pin{
+    margin-right: 10px;
+  }
+  .pin{
+    opacity: 0.8;
+    height: 18px;
+    width: 18px;
+  }
+  .pin1{
+    margin-top: 20px;
+
+  }
+  .noteContain{
+    border: none;
+    outline: none;
+    width: 500px;
+    font-size:initial;
+    padding-top: 35px;
+ 
+  }
+  .menu{
+    margin-top: 20px;
+  }
+  .note-reminder{
+    margin-left: 2px;
+  }
+
+.reminder{
+    opacity: 0.6;
+    height: 18px;
+    width: 18px;
+}
+.note-collaborator{
+  margin-left: 10px;
+ 
+}
+.collaborator{
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+}
+
+.note-color{
+  margin-left: 10px;
+ 
+}
+.color{
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+}
+.note-addPerson{
+  margin-left: 10px;
+ 
+}
+.addPerson{
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+}
+.note-archive{
+  margin-left: 10px;
+ 
+}
+.archive{
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+}
+.note-menuBotton{
+  margin-left: 10px;
+ 
+}
+.menuBotton{
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+}
+.note-undo{
+  margin-left: 10px;
+ 
+}
+.undo{
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+}
+.note-redo{
+  margin-left: 10px;
+ 
+}
+.redo{
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+}
+.closebtn{
+  margin-left: 70px;
+}
+.note-button{
+  width: 200px;
+  height: 52px;
+  margin-left: -21px;
+
+    }
+.image-notes{
+  opacity: 0.5;
+   margin-left: -232px;
+   padding-left: 100px;
+}
+.note{
+  size: small;
+  padding-left: 130px;
+}
+.notesDisplay {
+  display: flex;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 111px;
+}
+
+.cardDisplay {
+  width: 200px;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  margin: 14px;
+}

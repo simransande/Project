@@ -1,0 +1,286 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/html/codeigniter
+> git status -z -u
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git status -z -u
+> git ls-files --stage -- application/controllers/
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git check-ignore -z --stdin
+> git show :ng6/src/app/service/dataservice.service.ts
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ng6/src/app/service/dataservice.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :ng6/src/app/service/dataservice.service.ts
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :ng6/src/app/ForgotPassword/ForgotPassword.component.ts
+> git check-ignore -z --stdin
+> git show :application/.htaccess
+> git ls-files --stage -- application/
+> git show :ng6/src/app/notes/notes.component.ts
+> git show :ng6/src/app/notes/notes.component.html
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :ng6/src/app/service/dataservice.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ng6/src/app/service/dataservice.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :ng6/src/app/service/dataservice.service.ts
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ng6/src/app/service/dataservice.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :ng6/src/app/login/login.component.ts
+> git show :ng6/src/app/service/dataservice.service.ts
+> git show :ng6/src/app/app-routing.module.ts
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :ng6/src/app/service/dataservice.service.ts
+> git show :ng6/src/app/app-routing.module.ts
+> git show :ng6/src/app/service/dataservice.service.ts
+> git check-ignore -z --stdin
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git show :ng6/src/app/ForgotPassword/ForgotPassword.component.spec.ts
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git show :application/config/database.php
+> git ls-files --stage -- application/config/
+> git show :application/config/constants.php
+> git ls-files --stage -- application/config/
+> git show :application/config/autoload.php
+> git ls-files --stage -- application/config/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git show :application/config/database.php
+> git ls-files --stage -- application/config/
+> git show :application/config/constants.php
+> git ls-files --stage -- application/config/
+> git show :application/config/autoload.php
+> git ls-files --stage -- application/config/
+> git show :ng6/src/app/service/dataservice.service.ts
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git show :ng6/src/app/app-routing.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git check-ignore -z --stdin
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/config/autoload.php
+> git ls-files --stage -- application/config/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git show :application/config/routes.php
+> git ls-files --stage -- application/config/
+> git show :application/config/database.php
+> git ls-files --stage -- application/config/
+> git show :application/config/autoload.php
+> git ls-files --stage -- application/config/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git show :ng6/src/app/app-routing.module.ts
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ng6/src/app/notes/notes.component.ts
+> git show :ng6/src/app/service/dataservice.service.ts
+> git show :application/controllers/Accountcontroller.php
+> git ls-files --stage -- application/controllers/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :application/.htaccess
+> git ls-files --stage -- application/
+> git show :.htaccess
+> git show :application/.htaccess
+> git ls-files --stage -- application/
+> git show :application/config/config.php
+> git ls-files --stage -- application/config/
